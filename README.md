@@ -42,3 +42,6 @@ SmartInn is a comprehensive Hotel Management System built with PHP and MySQL, de
 3. Open **phpMyAdmin** from Laragon and import the database using the provided `.sql` file.
 4. Now, go to your browser and visit:
 
+ ```bash
+   http://localhost:your_port/
+
