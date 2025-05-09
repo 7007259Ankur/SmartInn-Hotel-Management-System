@@ -2,6 +2,8 @@
 
 SmartInn is a comprehensive Hotel Management System built with PHP and MySQL, designed to streamline hotel operations. With a clean user interface and secure database integration, it supports everything from room booking to payment tracking.
 
+## 🎥 Live Demo
+
 [![Watch the video](https://img.youtube.com/vi/RwmNjIUiqxg/0.jpg)](https://www.youtube.com/watch?v=RwmNjIUiqxg)
 
 
