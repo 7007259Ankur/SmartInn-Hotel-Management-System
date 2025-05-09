@@ -1,16 +1,16 @@
 # SmartInn – Hotel Management System
 
-SmartInn is a robust Hotel Management System designed to simplify and digitize hotel operations. Built with an intuitive interface and strong backend integration, it provides seamless room booking, customer management, payment processing, and service handling.
+SmartInn is a comprehensive Hotel Management System built with PHP and MySQL, designed to streamline hotel operations. With a clean user interface and secure database integration, it supports everything from room booking to payment tracking.
 
 ## 🚀 Features
 
-- 🔐 **Login & Authentication** – Secure login system for hotel staff.
-- 🏠 **Dashboard** – Centralized view of hotel status and services.
-- 🛏️ **Room Booking** – Book rooms by type and availability.
-- 📋 **Room & Customer Details** – Manage guest info, room allocation, and booking history.
-- 💳 **Payment Integration** – Secure and fast payment record system.
-- 📦 **Service Management** – Manage hotel services like food, laundry, and transport.
-- 🗄️ **Database Integration** – Efficient storage of customer, room, and transaction data.
+- 🔐 **Login & Authentication** – Secure login for hotel staff.
+- 🏠 **Dashboard** – Overview of rooms, customers, and services.
+- 🛏️ **Room Booking** – Book rooms based on type and availability.
+- 📋 **Customer & Room Details** – Manage customer data and room assignments.
+- 💳 **Payment Details** – Handle and store payment records securely.
+- 📦 **Service Management** – Add or manage hotel services.
+- 🗄️ **Database Integration** – Backend using MySQL with efficient table structure.
 
 ## 🖼️ Project Screenshots
 
@@ -29,14 +29,16 @@ SmartInn is a robust Hotel Management System designed to simplify and digitize h
 ## 🛠️ Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Python / PHP / Java (based on your implementation)
-- **Database:** MySQL / SQLite
-- **Tools:** VS Code, XAMPP / WAMP (if applicable)
+- **Backend:** PHP
+- **Database:** MySQL
+- **Server:** Laragon
 
-## 📦 Installation
+## 📦 Setup Instructions
 
-1. Clone this repository.
-2. Set up your database using the provided schema.
-3. Launch the server using:
-   ```bash
-   python app.py
+1. Copy the **entire project folder** into the `www` directory of **Laragon**.
+2. Open **Laragon** and start both:
+   - **Apache**
+   - **MySQL**
+3. Open **phpMyAdmin** from Laragon and import the database using the provided `.sql` file.
+4. Now, go to your browser and visit:
+
